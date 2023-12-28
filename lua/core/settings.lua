@@ -116,8 +116,8 @@ settings["lsp_deps"] = {
 ---@type string[]
 settings["null_ls_deps"] = {
 	"clang_format",
-	"gofumpt",
-	"goimports",
+	-- "gofumpt",
+	-- "goimports",
 	"prettier",
 	"shfmt",
 	"stylua",
@@ -170,7 +170,7 @@ settings["gui_config"] = {
 }
 
 -- Set the options specific to `neovide` here.
--- NOTE: You should remove the `neovide_` prefix (with trailing underscore) from all your entries below.
+-- NOTE: You should remove the `neovide_` prefix (with trailing underscore) from all your entries below.sett
 -- Check the below link for all supported entries:
 -- https://neovide.dev/configuration.html
 ---@type table<string, boolean|number|string>
