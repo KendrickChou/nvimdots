@@ -15,10 +15,10 @@ settings["lsp_deps"] = {
 	"clangd",
 	-- "html",
 	-- "jsonls",
-	"lua_ls",
-	"pylsp",
+	-- "lua_ls",
+	-- "pylsp",
 	-- "gopls",
-	"texlab",
+	-- "texlab",
 	"rust_analyzer",
 }
 
@@ -31,18 +31,18 @@ settings["treesitter_deps"] = {
 	-- "gomod",
 	-- "html",
 	-- "javascript",
-	"json",
-	"latex",
-	"lua",
+	-- "json",
+	-- "latex",
+	-- "lua",
 	"make",
 	-- "markdown",
 	-- "markdown_inline",
 	"python",
 	"rust",
 	-- "typescript",
-	"vimdoc",
+	-- "vimdoc",
 	-- "vue",
-	"yaml",
+	-- "yaml",
 }
 
 settings["null_ls_deps"] = {
@@ -53,7 +53,7 @@ settings["null_ls_deps"] = {
 	"shfmt",
 	"stylua",
 	"vint",
-	"rustfmt",
+	-- "rustfmt",
 }
 
 settings["formatter_block_list"] = {
