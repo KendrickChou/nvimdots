@@ -66,4 +66,6 @@ settings["formatter_block_list"] = {
 	markdown = true,
 }
 
+settings["format_on_save"] = false
+
 return settings
